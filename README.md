@@ -3,10 +3,12 @@ Here the code is on Cloning a Binary Tree with Random Pointers.
 
 Given a Binary Tree where every node has the following structure. 
 
-struct node {  
+struct node
+{  
     int key; 
     struct node *left,*right,*random;
 } 
+
 The random pointer points to any random node of the binary tree and can even point to NULL, clone the given binary tree.
 
 Method 1 (Use Hashing) 

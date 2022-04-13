@@ -6,8 +6,8 @@ Given a Binary Tree where every node has the following structure.
 struct node
 {  
     int key; 
-    
-    struct node *left,*right,*random;
+   
+   struct node *left,*right,*random;
 
 } 
 
